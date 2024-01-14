@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ozon-analytics"
+version = "0.1.0"
+description = ""
+authors = ["Artem Vopilov <mister.0025@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+notebook = "^7.0.6"
+pandas = "^2.1.4"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
